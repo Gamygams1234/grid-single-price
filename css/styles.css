@@ -1,0 +1,197 @@
+.container {
+  margin: 0 3em 0 3em;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+body .grid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body .grid .grid1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+body .grid .grid1 .container h1 {
+  color: #2ab2af;
+  font-weight: 700;
+}
+body .grid .grid1 .container h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  color: #c0df34;
+  font-weight: 700;
+}
+body .grid .grid1 .container p {
+  color: #98a6bd;
+  font-weight: 400;
+  line-height: 2;
+}
+body .grid .grid1 .container p .rwd-break {
+  display: none;
+}
+body .grid .grid2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #2bb1ae;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+body .grid .grid2 .container {
+  color: #e5eff5;
+}
+body .grid .grid2 .container .flex {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+body .grid .grid2 .container .flex h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 3em;
+}
+body .grid .grid2 .container .flex p {
+  color: #6ecfcf;
+}
+body .grid .grid2 .container .paragraph-middle {
+  padding-bottom: 1em;
+}
+body .grid .grid2 .container button {
+  width: 100%;
+  background-color: #bedd31;
+  border: none;
+  color: #e5eff5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+body .grid .grid3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #4abebd;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+body .grid .grid3 .container {
+  color: #e5eff5;
+}
+body .grid .grid3 .container h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+body .grid .grid3 .container p {
+  line-height: 1;
+  color: #afe9e6;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    margin: 0 3em 0 3em;
+  }
+
+  body {
+    font-family: "Karla", sans-serif;
+  }
+  body .grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body .grid .grid1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  body .grid .grid1 .container h1 {
+    color: #2ab2af;
+    font-weight: 700;
+  }
+  body .grid .grid1 .container h2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    color: #c0df34;
+    font-weight: 700;
+  }
+  body .grid .grid1 .container p {
+    color: #98a6bd;
+    font-weight: 400;
+    line-height: 2;
+  }
+  body .grid .grid1 .container p .rwd-break {
+    display: inline;
+  }
+  body .grid .grid2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #2bb1ae;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  body .grid .grid2 .container {
+    color: #e5eff5;
+  }
+  body .grid .grid2 .container .flex {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+  }
+  body .grid .grid2 .container .flex h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 3em;
+  }
+  body .grid .grid2 .container .flex p {
+    color: #6ecfcf;
+  }
+  body .grid .grid2 .container .paragraph-middle {
+    padding-bottom: 1em;
+  }
+  body .grid .grid2 .container button {
+    width: 100%;
+    background-color: #bedd31;
+    border: none;
+    color: #e5eff5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  body .grid .grid3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #4abebd;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  body .grid .grid3 .container {
+    color: #e5eff5;
+  }
+  body .grid .grid3 .container h2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  body .grid .grid3 .container p {
+    line-height: 1;
+    color: #afe9e6;
+  }
+}

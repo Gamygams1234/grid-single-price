@@ -1,0 +1,209 @@
+.container {
+    margin: 0 3em 0 3em;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+
+    .grid {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .grid1 {
+            padding-top: 1em;
+            padding-bottom: 1em;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            .container {
+                h1 {
+                    color: hsl(179, 62%, 43%);
+                    font-weight: 700;
+                }
+                h2 {
+                    padding-top: 0.5em;
+                    padding-bottom: 0.25em;
+                    color: hsl(71, 73%, 54%);
+                    font-weight: 700;
+                }
+                p {
+                    color: hsl(218, 22%, 67%);
+                    font-weight: 400;
+                    line-height: 2;
+                    .rwd-break {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .grid2 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: hsl(179, 61, 43);
+            padding-top: 2em;
+            padding-bottom: 2em;
+            .container {
+                color: hsl(204, 43%, 93%);
+                .flex {
+                    padding-top: 0.5em;
+                    padding-bottom: 0.5em;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: 0;
+                    h3 {
+                        margin: 0;
+                        font-weight: 700;
+                        font-size: 3em;
+                    }
+                    p {
+                        color: hsl(180, 50, 62);
+                    }
+                }
+                .paragraph-middle {
+                    padding-bottom: 1em;
+                }
+                button {
+                    width: 100%;
+                    background-color: hsl(71, 72, 53);
+                    border: none;
+                    color: hsl(204, 43%, 93%);
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 6px;
+                    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+
+        .grid3 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: rgb(74, 190, 189);
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            .container {
+                color: hsl(204, 43%, 93%);
+                h2 {
+                    padding-top: 0.5em;
+                    padding-bottom: 0.5em;
+                }
+                p {
+                    line-height: 1;
+                    color: hsl(177, 56, 80);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        margin: 0 3em 0 3em;
+    }
+
+    body {
+        font-family: "Karla", sans-serif;
+
+        .grid {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .grid1 {
+                padding-top: 1em;
+                padding-bottom: 1em;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                .container {
+                    h1 {
+                        color: hsl(179, 62%, 43%);
+                        font-weight: 700;
+                    }
+                    h2 {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.25em;
+                        color: hsl(71, 73%, 54%);
+                        font-weight: 700;
+                    }
+                    p {
+                        color: hsl(218, 22%, 67%);
+                        font-weight: 400;
+                        line-height: 2;
+                        .rwd-break {
+                            display: inline;
+                        }
+                    }
+                }
+            }
+
+            .grid2 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                background-color: hsl(179, 61, 43);
+                padding-top: 2em;
+                padding-bottom: 2em;
+                .container {
+                    color: hsl(204, 43%, 93%);
+                    .flex {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.5em;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin: 0;
+                        h3 {
+                            margin: 0;
+                            font-weight: 700;
+                            font-size: 3em;
+                        }
+                        p {
+                            color: hsl(180, 50, 62);
+                        }
+                    }
+                    .paragraph-middle {
+                        padding-bottom: 1em;
+                    }
+                    button {
+                        width: 100%;
+                        background-color: hsl(71, 72, 53);
+                        border: none;
+                        color: hsl(204, 43%, 93%);
+                        padding: 15px 32px;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        cursor: pointer;
+                        border-radius: 6px;
+                        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                    }
+                }
+            }
+
+            .grid3 {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                background-color: rgb(74, 190, 189);
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+
+                .container {
+                    color: hsl(204, 43%, 93%);
+                    h2 {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.5em;
+                    }
+                    p {
+                        line-height: 1;
+                        color: hsl(177, 56, 80);
+                    }
+                }
+            }
+        }
+    }
+}
